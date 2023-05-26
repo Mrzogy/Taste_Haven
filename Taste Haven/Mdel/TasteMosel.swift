@@ -72,9 +72,24 @@ var fav2 = Favor(image: "City7", imagestars: "5star", title: "His Grace Resturan
 var fav3 = Favor(image: "City8", imagestars: "5star", title: "His Grace Resturant", description: "Logos,Island,Logos", time: "25-35 mins")
 
 var Favoreet = [fav,fav1,fav2,fav3]
-//var fav = Favourits
-//var fav1 = Favourits(image: "City6", imagestars: "5star", title: "His Grace Resturant", description: "Logos,Island,Logos", time: "25-35 mins")
-//var fav2 = Favourits(image: "City7", imagestars: "5star", title: "His Grace Resturant", description: "Logos,Island,Logos", time: "25-35 mins")
-//var fav3 = Favourits(image: "City8", imagestars: "5star", title: "His Grace Resturant", description: "Logos,Island,Logos", time: "25-35 mins")
-//
-//var Favor = [fav,fav1,fav2,fav3]
+
+
+
+struct Order: Identifiable {
+    var id = UUID()
+    var image:String
+    var Name:String
+    var title:String
+    var image1 = Image(systemName: "chevron.down")
+    var DeletedOrNot:String
+    var calor:Color
+}
+var order1 = Order(image: "City1", Name: "His Grace Resturant", title: "ABC ⚫️ 4/10/2023", DeletedOrNot: "Delivered", calor: Color.green)
+var order2 = Order(image: "City2", Name: "Chinese Resturant", title: "ABC ⚫️ 8/11/2023", DeletedOrNot: "Cancled", calor: Color.red)
+var order3 = Order(image: "City3", Name: "Stephens Kitchen", title: "ABC ⚫️ 9/1/2023", DeletedOrNot: "Cancled", calor: Color.red)
+var order4 = Order(image: "City4", Name: "Belloni,s Kitchen", title: "ABC ⚫️ 3/2/2023", DeletedOrNot: "Delivered", calor: Color.green)
+var order5 = Order(image: "City5", Name: " Food store", title: "ABC ⚫️ 10/5/2023", DeletedOrNot: "Delivered", calor: Color.green)
+var order6 = Order(image: "City6", Name: "Saudi Resturant", title: "ABC ⚫️ 6/5/2023", DeletedOrNot: "Cancled", calor: Color.red)
+var order7 = Order(image: "City7", Name: "See Food Resturant", title: "ABC ⚫️ 22/7/2023", DeletedOrNot: "Delivered", calor: Color.green)
+
+var allOrders = [order1,order2,order3,order4,order5,order6,order7]

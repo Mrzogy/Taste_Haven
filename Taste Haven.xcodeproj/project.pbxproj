@@ -22,6 +22,9 @@
 		B7C37C742A214A4D001FF51D /* Search2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C37C732A214A4D001FF51D /* Search2.swift */; };
 		B7C37C762A214EF3001FF51D /* CoustomSearchType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C37C752A214EF3001FF51D /* CoustomSearchType.swift */; };
 		B7C37C782A2150B4001FF51D /* CoustomSearchList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C37C772A2150B3001FF51D /* CoustomSearchList.swift */; };
+		B7C37C7A2A2159AF001FF51D /* RecentOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C37C792A2159AF001FF51D /* RecentOrder.swift */; };
+		B7C37C7C2A2159C1001FF51D /* CoustomsOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C37C7B2A2159C1001FF51D /* CoustomsOrder.swift */; };
+		B7C37C802A216BBE001FF51D /* Prfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C37C7F2A216BBE001FF51D /* Prfile.swift */; };
 		B7D52B8A2A209F7300F2F7F5 /* Taste_HavenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D52B892A209F7300F2F7F5 /* Taste_HavenApp.swift */; };
 		B7D52B8C2A209F7300F2F7F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D52B8B2A209F7300F2F7F5 /* ContentView.swift */; };
 		B7D52B8E2A209F7500F2F7F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7D52B8D2A209F7500F2F7F5 /* Assets.xcassets */; };
@@ -44,6 +47,9 @@
 		B7C37C732A214A4D001FF51D /* Search2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search2.swift; sourceTree = "<group>"; };
 		B7C37C752A214EF3001FF51D /* CoustomSearchType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoustomSearchType.swift; sourceTree = "<group>"; };
 		B7C37C772A2150B3001FF51D /* CoustomSearchList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoustomSearchList.swift; sourceTree = "<group>"; };
+		B7C37C792A2159AF001FF51D /* RecentOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentOrder.swift; sourceTree = "<group>"; };
+		B7C37C7B2A2159C1001FF51D /* CoustomsOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoustomsOrder.swift; sourceTree = "<group>"; };
+		B7C37C7F2A216BBE001FF51D /* Prfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prfile.swift; sourceTree = "<group>"; };
 		B7D52B862A209F7300F2F7F5 /* Taste Haven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Taste Haven.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7D52B892A209F7300F2F7F5 /* Taste_HavenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taste_HavenApp.swift; sourceTree = "<group>"; };
 		B7D52B8B2A209F7300F2F7F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +81,8 @@
 			children = (
 				B7C37C5D2A20F74C001FF51D /* HomeView.swift */,
 				B7C37C732A214A4D001FF51D /* Search2.swift */,
+				B7C37C792A2159AF001FF51D /* RecentOrder.swift */,
+				B7C37C7F2A216BBE001FF51D /* Prfile.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -89,6 +97,7 @@
 				B7C37C712A214348001FF51D /* CoustomsFavourits.swift */,
 				B7C37C752A214EF3001FF51D /* CoustomSearchType.swift */,
 				B7C37C772A2150B3001FF51D /* CoustomSearchList.swift */,
+				B7C37C7B2A2159C1001FF51D /* CoustomsOrder.swift */,
 			);
 			path = Coustoms;
 			sourceTree = "<group>";
@@ -219,6 +228,8 @@
 				B7D52B8A2A209F7300F2F7F5 /* Taste_HavenApp.swift in Sources */,
 				B7C37C702A21426E001FF51D /* CoustoFavourits.swift in Sources */,
 				B7C37C762A214EF3001FF51D /* CoustomSearchType.swift in Sources */,
+				B7C37C802A216BBE001FF51D /* Prfile.swift in Sources */,
+				B7C37C7C2A2159C1001FF51D /* CoustomsOrder.swift in Sources */,
 				B7C37C622A210287001FF51D /* Coustom Categories.swift in Sources */,
 				B7C37C5E2A20F74C001FF51D /* HomeView.swift in Sources */,
 				B7C37C602A20F7AE001FF51D /* CoustomSearch.swift in Sources */,
@@ -231,6 +242,7 @@
 				B7C37C742A214A4D001FF51D /* Search2.swift in Sources */,
 				B7C37C532A20DB1F001FF51D /* TasteMosel.swift in Sources */,
 				B7C37C6C2A212658001FF51D /* CoustomFeaturedResturant.swift in Sources */,
+				B7C37C7A2A2159AF001FF51D /* RecentOrder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
