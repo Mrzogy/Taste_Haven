@@ -13,8 +13,14 @@ struct HomeView: View {
                 CoustomTob()
                 VStack(spacing: 30) {
                     CoustomSearch()
-                    Coustom_Categories()
-                    Spacer()
+                    VStack {
+                            Coustom_Categories()
+                            CoustomCatigrosicFood()
+                            Spacer()
+                        
+                       
+                    }
+                    
                 }
                 
                

@@ -28,7 +28,7 @@ struct Categoriec:Identifiable {
     var imageCat:String
     var titleCat:String
 }
-var drink = Categoriec(imageCat: "Drinks", titleCat: "Drinks")
+var drink = Categoriec(imageCat: "A", titleCat: "Drinks")
 var coffee = Categoriec(imageCat: "Coffee", titleCat: "Coffee")
 var fastfood = Categoriec(imageCat: "FastFood", titleCat: "Fast Food")
 var pizza = Categoriec(imageCat: "Pizza", titleCat: "Pizza")

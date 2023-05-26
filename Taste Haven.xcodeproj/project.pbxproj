@@ -13,6 +13,7 @@
 		B7C37C5E2A20F74C001FF51D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C37C5D2A20F74C001FF51D /* HomeView.swift */; };
 		B7C37C602A20F7AE001FF51D /* CoustomSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C37C5F2A20F7AE001FF51D /* CoustomSearch.swift */; };
 		B7C37C622A210287001FF51D /* Coustom Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C37C612A210287001FF51D /* Coustom Categories.swift */; };
+		B7C37C662A21049A001FF51D /* CoustomCatigrosicFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C37C652A21049A001FF51D /* CoustomCatigrosicFood.swift */; };
 		B7D52B8A2A209F7300F2F7F5 /* Taste_HavenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D52B892A209F7300F2F7F5 /* Taste_HavenApp.swift */; };
 		B7D52B8C2A209F7300F2F7F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D52B8B2A209F7300F2F7F5 /* ContentView.swift */; };
 		B7D52B8E2A209F7500F2F7F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7D52B8D2A209F7500F2F7F5 /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 		B7C37C5D2A20F74C001FF51D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B7C37C5F2A20F7AE001FF51D /* CoustomSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoustomSearch.swift; sourceTree = "<group>"; };
 		B7C37C612A210287001FF51D /* Coustom Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Coustom Categories.swift"; sourceTree = "<group>"; };
+		B7C37C652A21049A001FF51D /* CoustomCatigrosicFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoustomCatigrosicFood.swift; sourceTree = "<group>"; };
 		B7D52B862A209F7300F2F7F5 /* Taste Haven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Taste Haven.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7D52B892A209F7300F2F7F5 /* Taste_HavenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taste_HavenApp.swift; sourceTree = "<group>"; };
 		B7D52B8B2A209F7300F2F7F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 			children = (
 				B7C37C552A20EBDB001FF51D /* CoustomTob.swift */,
 				B7C37C5F2A20F7AE001FF51D /* CoustomSearch.swift */,
+				B7C37C652A21049A001FF51D /* CoustomCatigrosicFood.swift */,
 			);
 			path = Coustoms;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				B7C37C5E2A20F74C001FF51D /* HomeView.swift in Sources */,
 				B7C37C602A20F7AE001FF51D /* CoustomSearch.swift in Sources */,
 				B7C37C562A20EBDB001FF51D /* CoustomTob.swift in Sources */,
+				B7C37C662A21049A001FF51D /* CoustomCatigrosicFood.swift in Sources */,
 				B7C37C532A20DB1F001FF51D /* TasteMosel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
