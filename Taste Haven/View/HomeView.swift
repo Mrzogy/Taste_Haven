@@ -9,24 +9,20 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-            VStack(spacing: 20) {
+            VStack(spacing: 30) {
                 CoustomTob()
-                VStack(spacing: 30) {
+                VStack(spacing: 20) {
                     CoustomSearch()
-                    VStack {
-                            Coustom_Categories()
-                            CoustomCatigrosicFood()
-                            Spacer()
-                        
-                       
-                    }
+                    Coustom_Categories()
+                    CoustomCatigrosicFood()
+                    CoustomFutered()
+                        Spacer()
                     
-                }
-                
-               
-            
-           
+                    
+              }
+
         }
+      
     }
 }
 

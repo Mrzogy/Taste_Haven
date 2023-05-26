@@ -9,40 +9,42 @@ import SwiftUI
 
 struct CoustomCatigrosicFood: View {
     var body: some View {
-        ScrollView{
+        //ZStack{
             
             // ForEach(Foods){food in
-            LazyHStack {
-                ForEach(Foods){food in
-                    ZStack{
-                        RoundedRectangle(cornerRadius: 25)
-                            .fill(Color.white)
-                        //                                .border(Color("green"))
-                            .frame(width: 70,height: 70)
-                            .overlay(
-                                RoundedRectangle(cornerRadius: 10)
-                                    .stroke(Color("green"), lineWidth: 2)
-                            )
- 
-                        VStack(spacing: -1) {
-                            Image(food.imageCat)
-                                .resizable()
-                                .aspectRatio(contentMode: .fit)
-                            .frame(width: 40,height: 40)
+           
+        HStack {
+            ForEach(Foods){food in
+                        ZStack{
+                            RoundedRectangle(cornerRadius: 25)
+                                .fill(Color.white)
+                            //                                .border(Color("green"))
+                                .frame(width: 70,height: 70)
+                                .overlay(
+                                    RoundedRectangle(cornerRadius: 10)
+                                        .stroke(Color("green"), lineWidth: 2)
+                                )
+     
+                            VStack(spacing: -1) {
+                                Image(food.imageCat)
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fit)
+                                .frame(width: 40,height: 40)
+                                
+                                Text(food.titleCat)
+                                    .font(.footnote)
+                                    .bold()
+                            }
                             
-                            Text(food.titleCat)
-                                .font(.footnote)
-                                .bold()
-                        }
+                        }.padding(8)
                         
-                    }.padding(8)
-                    
-                    
-                }
+                        
             }
-            
-            
         }
+            
+            
+            
+        //}
     }
 }
 
