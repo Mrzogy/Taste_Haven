@@ -20,3 +20,18 @@ struct UpHomeView: Identifiable {
 var UpHome = UpHomeView(Tittle: "Delivering to", description: "KSA, Ryadh,ALOulia,Saudi Arabia", ImageName: "bell", ImageName1: "cart", image: "chevron.down")
 
 var UPHomes = [UpHome]
+
+
+
+struct Categoriec:Identifiable {
+    var id = UUID()
+    var imageCat:String
+    var titleCat:String
+}
+var drink = Categoriec(imageCat: "Drinks", titleCat: "Drinks")
+var coffee = Categoriec(imageCat: "Coffee", titleCat: "Coffee")
+var fastfood = Categoriec(imageCat: "FastFood", titleCat: "Fast Food")
+var pizza = Categoriec(imageCat: "Pizza", titleCat: "Pizza")
+
+var Foods = [drink,coffee,fastfood,pizza]
+

@@ -12,6 +12,7 @@
 		B7C37C5C2A20F5AE001FF51D /* ToBarImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C37C5B2A20F5AE001FF51D /* ToBarImage.swift */; };
 		B7C37C5E2A20F74C001FF51D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C37C5D2A20F74C001FF51D /* HomeView.swift */; };
 		B7C37C602A20F7AE001FF51D /* CoustomSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C37C5F2A20F7AE001FF51D /* CoustomSearch.swift */; };
+		B7C37C622A210287001FF51D /* Coustom Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C37C612A210287001FF51D /* Coustom Categories.swift */; };
 		B7D52B8A2A209F7300F2F7F5 /* Taste_HavenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D52B892A209F7300F2F7F5 /* Taste_HavenApp.swift */; };
 		B7D52B8C2A209F7300F2F7F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D52B8B2A209F7300F2F7F5 /* ContentView.swift */; };
 		B7D52B8E2A209F7500F2F7F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7D52B8D2A209F7500F2F7F5 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 		B7C37C5B2A20F5AE001FF51D /* ToBarImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToBarImage.swift; sourceTree = "<group>"; };
 		B7C37C5D2A20F74C001FF51D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B7C37C5F2A20F7AE001FF51D /* CoustomSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoustomSearch.swift; sourceTree = "<group>"; };
+		B7C37C612A210287001FF51D /* Coustom Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Coustom Categories.swift"; sourceTree = "<group>"; };
 		B7D52B862A209F7300F2F7F5 /* Taste Haven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Taste Haven.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7D52B892A209F7300F2F7F5 /* Taste_HavenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taste_HavenApp.swift; sourceTree = "<group>"; };
 		B7D52B8B2A209F7300F2F7F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				B7C37C5B2A20F5AE001FF51D /* ToBarImage.swift */,
+				B7C37C612A210287001FF51D /* Coustom Categories.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				B7C37C5C2A20F5AE001FF51D /* ToBarImage.swift in Sources */,
 				B7D52B8C2A209F7300F2F7F5 /* ContentView.swift in Sources */,
 				B7D52B8A2A209F7300F2F7F5 /* Taste_HavenApp.swift in Sources */,
+				B7C37C622A210287001FF51D /* Coustom Categories.swift in Sources */,
 				B7C37C5E2A20F74C001FF51D /* HomeView.swift in Sources */,
 				B7C37C602A20F7AE001FF51D /* CoustomSearch.swift in Sources */,
 				B7C37C562A20EBDB001FF51D /* CoustomTob.swift in Sources */,

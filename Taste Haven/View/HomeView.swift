@@ -9,12 +9,18 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        VStack(spacing: 20) {
-            CoustomTob()
-            CoustomSearch()
-              Spacer()
+            VStack(spacing: 20) {
+                CoustomTob()
+                VStack(spacing: 30) {
+                    CoustomSearch()
+                    Coustom_Categories()
+                    Spacer()
+                }
+                
+               
+            
+           
         }
-       
     }
 }
 
