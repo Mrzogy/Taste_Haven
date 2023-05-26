@@ -9,18 +9,23 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
+        ScrollView {
             VStack(spacing: 30) {
-                CoustomTob()
-                VStack(spacing: 20) {
-                    CoustomSearch()
-                    Coustom_Categories()
-                    CoustomCatigrosicFood()
-                    CoustomFutered()
-                        Spacer()
-                    
-                    
-              }
+                    CoustomTob()
+                    VStack(spacing: 20) {
+                        CoustomSearch()
+                        Coustom_Categories()
+                        CoustomCatigrosicFood()
+                        CoustomFutered()
+                        CoustomFeaturedResturant()
+                        Favourits()
+                        CoustomsFavourits()
+                            Spacer()
+                        
+                        
+                  }
 
+            }
         }
       
     }
