@@ -11,7 +11,7 @@ import SwiftUI
 struct Taste_HavenApp: App {
     var body: some Scene {
         WindowGroup {
-            HomeView()
+            ContentView()
         }
     }
 }

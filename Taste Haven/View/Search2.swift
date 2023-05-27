@@ -11,25 +11,27 @@ struct Search: View {
     
     var body: some View {
         NavigationView {
-            VStack(){
-                VStack(spacing: 100) {
-                    ExtractedView()
-                    VStack(alignment: .leading,spacing: 50) {
+            ScrollView {
+                VStack(){
+                    VStack(spacing: 100) {
+                        ExtractedView()
+                        VStack(alignment: .leading,spacing: 50) {
+                            
+                            CoustomSearchType()
+                            CoustomSearchList()
+                            CoustomSearchList()
+                            CoustomSearchList()
+                            CoustomSearchList()
+                        }
                         
-                        CoustomSearchType()
-                        CoustomSearchList()
-                        CoustomSearchList()
-                        CoustomSearchList()
-                        CoustomSearchList()
+                        Spacer()
+                        
                     }
+                   
                     
-                    Spacer()
-                    
-                }
-               
-                
-            }.navigationTitle("Search")
-                .navigationBarTitleDisplayMode(.inline)
+                }.navigationTitle("Search")
+                    .navigationBarTitleDisplayMode(.inline)
+            }
    
         }
             

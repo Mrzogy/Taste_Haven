@@ -48,7 +48,7 @@ struct CoustomsOrder: View {
                         }
                     }
                 }
-            }
+            }.scrollIndicators(.hidden)
         }
         
         

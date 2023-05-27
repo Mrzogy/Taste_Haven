@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B73CBE822A21720D000A19CC /* CoustomProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73CBE812A21720D000A19CC /* CoustomProfile.swift */; };
+		B73CBE842A21DE54000A19CC /* CoustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73CBE832A21DE54000A19CC /* CoustomTabBar.swift */; };
 		B7C37C532A20DB1F001FF51D /* TasteMosel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C37C522A20DB1F001FF51D /* TasteMosel.swift */; };
 		B7C37C562A20EBDB001FF51D /* CoustomTob.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C37C552A20EBDB001FF51D /* CoustomTob.swift */; };
 		B7C37C5C2A20F5AE001FF51D /* ToBarImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C37C5B2A20F5AE001FF51D /* ToBarImage.swift */; };
@@ -34,6 +35,7 @@
 
 /* Begin PBXFileReference section */
 		B73CBE812A21720D000A19CC /* CoustomProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoustomProfile.swift; sourceTree = "<group>"; };
+		B73CBE832A21DE54000A19CC /* CoustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoustomTabBar.swift; sourceTree = "<group>"; };
 		B7C37C522A20DB1F001FF51D /* TasteMosel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteMosel.swift; sourceTree = "<group>"; };
 		B7C37C552A20EBDB001FF51D /* CoustomTob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoustomTob.swift; sourceTree = "<group>"; };
 		B7C37C5B2A20F5AE001FF51D /* ToBarImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToBarImage.swift; sourceTree = "<group>"; };
@@ -101,6 +103,8 @@
 				B7C37C772A2150B3001FF51D /* CoustomSearchList.swift */,
 				B7C37C7B2A2159C1001FF51D /* CoustomsOrder.swift */,
 				B73CBE812A21720D000A19CC /* CoustomProfile.swift */,
+				B73CBE832A21DE54000A19CC /* CoustomTabBar.swift */,
+				B7C37C5A2A20F571001FF51D /* Component */,
 			);
 			path = Coustoms;
 			sourceTree = "<group>";
@@ -136,13 +140,12 @@
 		B7D52B882A209F7300F2F7F5 /* Taste Haven */ = {
 			isa = PBXGroup;
 			children = (
-				B7C37C502A20DABB001FF51D /* Mdel */,
-				B7C37C512A20DACF001FF51D /* View */,
 				B7D52B892A209F7300F2F7F5 /* Taste_HavenApp.swift */,
 				B7D52B8B2A209F7300F2F7F5 /* ContentView.swift */,
+				B7C37C502A20DABB001FF51D /* Mdel */,
+				B7C37C512A20DACF001FF51D /* View */,
 				B7C37C542A20EBAF001FF51D /* Coustoms */,
 				B7D52B8D2A209F7500F2F7F5 /* Assets.xcassets */,
-				B7C37C5A2A20F571001FF51D /* Component */,
 				B7D52B8F2A209F7500F2F7F5 /* Preview Content */,
 			);
 			path = "Taste Haven";
@@ -238,6 +241,7 @@
 				B7C37C602A20F7AE001FF51D /* CoustomSearch.swift in Sources */,
 				B7C37C682A211105001FF51D /* CostomFeatured.swift in Sources */,
 				B7C37C722A214348001FF51D /* CoustomsFavourits.swift in Sources */,
+				B73CBE842A21DE54000A19CC /* CoustomTabBar.swift in Sources */,
 				B7C37C6E2A213888001FF51D /* Stars.swift in Sources */,
 				B7C37C562A20EBDB001FF51D /* CoustomTob.swift in Sources */,
 				B73CBE822A21720D000A19CC /* CoustomProfile.swift in Sources */,

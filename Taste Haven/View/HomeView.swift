@@ -26,7 +26,7 @@ struct HomeView: View {
                   }
 
             }
-        }
+        }.scrollIndicators(.hidden)
       
     }
 }

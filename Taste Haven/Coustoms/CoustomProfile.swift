@@ -91,7 +91,7 @@ struct CoustomProfile: View {
             Label(title: {
                 Text("Log out")
             }, icon: {
-                Image(systemName: "lock")
+                Image(systemName: "rectangle.portrait.and.arrow.forward")
                     .foregroundColor(Color.red)
             })
             .padding(20)
