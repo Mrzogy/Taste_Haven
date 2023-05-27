@@ -9,6 +9,16 @@
 /* Begin PBXBuildFile section */
 		B73CBE822A21720D000A19CC /* CoustomProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73CBE812A21720D000A19CC /* CoustomProfile.swift */; };
 		B73CBE842A21DE54000A19CC /* CoustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73CBE832A21DE54000A19CC /* CoustomTabBar.swift */; };
+		B73CBE862A21F5F2000A19CC /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73CBE852A21F5F2000A19CC /* Register.swift */; };
+		B73CBE882A21F7CF000A19CC /* CoustomRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73CBE872A21F7CF000A19CC /* CoustomRegister.swift */; };
+		B73CBE8A2A21FB67000A19CC /* CoustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73CBE892A21FB67000A19CC /* CoustomButton.swift */; };
+		B73CBE8C2A21FF58000A19CC /* CoustomButtonFitt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73CBE8B2A21FF58000A19CC /* CoustomButtonFitt.swift */; };
+		B73CBE8E2A220511000A19CC /* CoustomRigesterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73CBE8D2A220511000A19CC /* CoustomRigesterButton.swift */; };
+		B73CBE902A220550000A19CC /* CoustomOr.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73CBE8F2A220550000A19CC /* CoustomOr.swift */; };
+		B73CBE922A22092C000A19CC /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73CBE912A22092C000A19CC /* Login.swift */; };
+		B73CBE942A22097B000A19CC /* CoustomLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73CBE932A22097B000A19CC /* CoustomLogin.swift */; };
+		B73CBE962A220F2C000A19CC /* CoustomReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73CBE952A220F2C000A19CC /* CoustomReminder.swift */; };
+		B73CBE982A2213C5000A19CC /* CoustomNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73CBE972A2213C5000A19CC /* CoustomNew.swift */; };
 		B7C37C532A20DB1F001FF51D /* TasteMosel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C37C522A20DB1F001FF51D /* TasteMosel.swift */; };
 		B7C37C562A20EBDB001FF51D /* CoustomTob.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C37C552A20EBDB001FF51D /* CoustomTob.swift */; };
 		B7C37C5C2A20F5AE001FF51D /* ToBarImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C37C5B2A20F5AE001FF51D /* ToBarImage.swift */; };
@@ -36,6 +46,16 @@
 /* Begin PBXFileReference section */
 		B73CBE812A21720D000A19CC /* CoustomProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoustomProfile.swift; sourceTree = "<group>"; };
 		B73CBE832A21DE54000A19CC /* CoustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoustomTabBar.swift; sourceTree = "<group>"; };
+		B73CBE852A21F5F2000A19CC /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		B73CBE872A21F7CF000A19CC /* CoustomRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoustomRegister.swift; sourceTree = "<group>"; };
+		B73CBE892A21FB67000A19CC /* CoustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoustomButton.swift; sourceTree = "<group>"; };
+		B73CBE8B2A21FF58000A19CC /* CoustomButtonFitt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoustomButtonFitt.swift; sourceTree = "<group>"; };
+		B73CBE8D2A220511000A19CC /* CoustomRigesterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoustomRigesterButton.swift; sourceTree = "<group>"; };
+		B73CBE8F2A220550000A19CC /* CoustomOr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoustomOr.swift; sourceTree = "<group>"; };
+		B73CBE912A22092C000A19CC /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		B73CBE932A22097B000A19CC /* CoustomLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoustomLogin.swift; sourceTree = "<group>"; };
+		B73CBE952A220F2C000A19CC /* CoustomReminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoustomReminder.swift; sourceTree = "<group>"; };
+		B73CBE972A2213C5000A19CC /* CoustomNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoustomNew.swift; sourceTree = "<group>"; };
 		B7C37C522A20DB1F001FF51D /* TasteMosel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteMosel.swift; sourceTree = "<group>"; };
 		B7C37C552A20EBDB001FF51D /* CoustomTob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoustomTob.swift; sourceTree = "<group>"; };
 		B7C37C5B2A20F5AE001FF51D /* ToBarImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToBarImage.swift; sourceTree = "<group>"; };
@@ -87,6 +107,8 @@
 				B7C37C732A214A4D001FF51D /* Search2.swift */,
 				B7C37C792A2159AF001FF51D /* RecentOrder.swift */,
 				B7C37C7F2A216BBE001FF51D /* Prfile.swift */,
+				B73CBE852A21F5F2000A19CC /* Register.swift */,
+				B73CBE912A22092C000A19CC /* Login.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -104,7 +126,14 @@
 				B7C37C7B2A2159C1001FF51D /* CoustomsOrder.swift */,
 				B73CBE812A21720D000A19CC /* CoustomProfile.swift */,
 				B73CBE832A21DE54000A19CC /* CoustomTabBar.swift */,
-				B7C37C5A2A20F571001FF51D /* Component */,
+				B73CBE872A21F7CF000A19CC /* CoustomRegister.swift */,
+				B73CBE932A22097B000A19CC /* CoustomLogin.swift */,
+				B73CBE892A21FB67000A19CC /* CoustomButton.swift */,
+				B73CBE8B2A21FF58000A19CC /* CoustomButtonFitt.swift */,
+				B73CBE8D2A220511000A19CC /* CoustomRigesterButton.swift */,
+				B73CBE8F2A220550000A19CC /* CoustomOr.swift */,
+				B73CBE952A220F2C000A19CC /* CoustomReminder.swift */,
+				B73CBE972A2213C5000A19CC /* CoustomNew.swift */,
 			);
 			path = Coustoms;
 			sourceTree = "<group>";
@@ -146,6 +175,7 @@
 				B7C37C512A20DACF001FF51D /* View */,
 				B7C37C542A20EBAF001FF51D /* Coustoms */,
 				B7D52B8D2A209F7500F2F7F5 /* Assets.xcassets */,
+				B7C37C5A2A20F571001FF51D /* Component */,
 				B7D52B8F2A209F7500F2F7F5 /* Preview Content */,
 			);
 			path = "Taste Haven";
@@ -230,20 +260,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7C37C5C2A20F5AE001FF51D /* ToBarImage.swift in Sources */,
+				B73CBE8A2A21FB67000A19CC /* CoustomButton.swift in Sources */,
 				B7D52B8C2A209F7300F2F7F5 /* ContentView.swift in Sources */,
+				B73CBE922A22092C000A19CC /* Login.swift in Sources */,
 				B7D52B8A2A209F7300F2F7F5 /* Taste_HavenApp.swift in Sources */,
 				B7C37C702A21426E001FF51D /* CoustoFavourits.swift in Sources */,
+				B73CBE942A22097B000A19CC /* CoustomLogin.swift in Sources */,
+				B73CBE902A220550000A19CC /* CoustomOr.swift in Sources */,
 				B7C37C762A214EF3001FF51D /* CoustomSearchType.swift in Sources */,
+				B73CBE962A220F2C000A19CC /* CoustomReminder.swift in Sources */,
 				B7C37C802A216BBE001FF51D /* Prfile.swift in Sources */,
 				B7C37C7C2A2159C1001FF51D /* CoustomsOrder.swift in Sources */,
 				B7C37C622A210287001FF51D /* Coustom Categories.swift in Sources */,
 				B7C37C5E2A20F74C001FF51D /* HomeView.swift in Sources */,
 				B7C37C602A20F7AE001FF51D /* CoustomSearch.swift in Sources */,
+				B73CBE862A21F5F2000A19CC /* Register.swift in Sources */,
 				B7C37C682A211105001FF51D /* CostomFeatured.swift in Sources */,
 				B7C37C722A214348001FF51D /* CoustomsFavourits.swift in Sources */,
+				B73CBE8E2A220511000A19CC /* CoustomRigesterButton.swift in Sources */,
 				B73CBE842A21DE54000A19CC /* CoustomTabBar.swift in Sources */,
 				B7C37C6E2A213888001FF51D /* Stars.swift in Sources */,
 				B7C37C562A20EBDB001FF51D /* CoustomTob.swift in Sources */,
+				B73CBE8C2A21FF58000A19CC /* CoustomButtonFitt.swift in Sources */,
 				B73CBE822A21720D000A19CC /* CoustomProfile.swift in Sources */,
 				B7C37C782A2150B4001FF51D /* CoustomSearchList.swift in Sources */,
 				B7C37C662A21049A001FF51D /* CoustomCatigrosicFood.swift in Sources */,
@@ -251,6 +289,8 @@
 				B7C37C532A20DB1F001FF51D /* TasteMosel.swift in Sources */,
 				B7C37C6C2A212658001FF51D /* CoustomFeaturedResturant.swift in Sources */,
 				B7C37C7A2A2159AF001FF51D /* RecentOrder.swift in Sources */,
+				B73CBE882A21F7CF000A19CC /* CoustomRegister.swift in Sources */,
+				B73CBE982A2213C5000A19CC /* CoustomNew.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
