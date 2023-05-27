@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B73CBE822A21720D000A19CC /* CoustomProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73CBE812A21720D000A19CC /* CoustomProfile.swift */; };
 		B7C37C532A20DB1F001FF51D /* TasteMosel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C37C522A20DB1F001FF51D /* TasteMosel.swift */; };
 		B7C37C562A20EBDB001FF51D /* CoustomTob.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C37C552A20EBDB001FF51D /* CoustomTob.swift */; };
 		B7C37C5C2A20F5AE001FF51D /* ToBarImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C37C5B2A20F5AE001FF51D /* ToBarImage.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B73CBE812A21720D000A19CC /* CoustomProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoustomProfile.swift; sourceTree = "<group>"; };
 		B7C37C522A20DB1F001FF51D /* TasteMosel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteMosel.swift; sourceTree = "<group>"; };
 		B7C37C552A20EBDB001FF51D /* CoustomTob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoustomTob.swift; sourceTree = "<group>"; };
 		B7C37C5B2A20F5AE001FF51D /* ToBarImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToBarImage.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				B7C37C752A214EF3001FF51D /* CoustomSearchType.swift */,
 				B7C37C772A2150B3001FF51D /* CoustomSearchList.swift */,
 				B7C37C7B2A2159C1001FF51D /* CoustomsOrder.swift */,
+				B73CBE812A21720D000A19CC /* CoustomProfile.swift */,
 			);
 			path = Coustoms;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 				B7C37C722A214348001FF51D /* CoustomsFavourits.swift in Sources */,
 				B7C37C6E2A213888001FF51D /* Stars.swift in Sources */,
 				B7C37C562A20EBDB001FF51D /* CoustomTob.swift in Sources */,
+				B73CBE822A21720D000A19CC /* CoustomProfile.swift in Sources */,
 				B7C37C782A2150B4001FF51D /* CoustomSearchList.swift in Sources */,
 				B7C37C662A21049A001FF51D /* CoustomCatigrosicFood.swift in Sources */,
 				B7C37C742A214A4D001FF51D /* Search2.swift in Sources */,
