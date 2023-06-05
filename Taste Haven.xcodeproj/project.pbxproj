@@ -19,6 +19,11 @@
 		B73CBE942A22097B000A19CC /* CoustomLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73CBE932A22097B000A19CC /* CoustomLogin.swift */; };
 		B73CBE962A220F2C000A19CC /* CoustomReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73CBE952A220F2C000A19CC /* CoustomReminder.swift */; };
 		B73CBE982A2213C5000A19CC /* CoustomNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73CBE972A2213C5000A19CC /* CoustomNew.swift */; };
+		B79975EC2A2E8086007D70DE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B79975EB2A2E8086007D70DE /* GoogleService-Info.plist */; };
+		B79975EF2A2E80ED007D70DE /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B79975EE2A2E80ED007D70DE /* FirebaseAuth */; };
+		B79975F12A2E81E6007D70DE /* Haptic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79975F02A2E81E6007D70DE /* Haptic.swift */; };
+		B79975F52A2E86F2007D70DE /* Tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B79975F32A2E86F2007D70DE /* Tada.mp3 */; };
+		B799AA352A2EA0820071A969 /* AS.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B799AA342A2EA0820071A969 /* AS.mp3 */; };
 		B7C37C532A20DB1F001FF51D /* TasteMosel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C37C522A20DB1F001FF51D /* TasteMosel.swift */; };
 		B7C37C562A20EBDB001FF51D /* CoustomTob.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C37C552A20EBDB001FF51D /* CoustomTob.swift */; };
 		B7C37C5C2A20F5AE001FF51D /* ToBarImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C37C5B2A20F5AE001FF51D /* ToBarImage.swift */; };
@@ -56,6 +61,10 @@
 		B73CBE932A22097B000A19CC /* CoustomLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoustomLogin.swift; sourceTree = "<group>"; };
 		B73CBE952A220F2C000A19CC /* CoustomReminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoustomReminder.swift; sourceTree = "<group>"; };
 		B73CBE972A2213C5000A19CC /* CoustomNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoustomNew.swift; sourceTree = "<group>"; };
+		B79975EB2A2E8086007D70DE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B79975F02A2E81E6007D70DE /* Haptic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Haptic.swift; sourceTree = "<group>"; };
+		B79975F32A2E86F2007D70DE /* Tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Tada.mp3; sourceTree = "<group>"; };
+		B799AA342A2EA0820071A969 /* AS.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AS.mp3; sourceTree = "<group>"; };
 		B7C37C522A20DB1F001FF51D /* TasteMosel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteMosel.swift; sourceTree = "<group>"; };
 		B7C37C552A20EBDB001FF51D /* CoustomTob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoustomTob.swift; sourceTree = "<group>"; };
 		B7C37C5B2A20F5AE001FF51D /* ToBarImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToBarImage.swift; sourceTree = "<group>"; };
@@ -86,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B79975EF2A2E80ED007D70DE /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				B7C37C522A20DB1F001FF51D /* TasteMosel.swift */,
+				B79975F02A2E81E6007D70DE /* Haptic.swift */,
 			);
 			path = Mdel;
 			sourceTree = "<group>";
@@ -175,6 +186,9 @@
 				B7C37C512A20DACF001FF51D /* View */,
 				B7C37C542A20EBAF001FF51D /* Coustoms */,
 				B7D52B8D2A209F7500F2F7F5 /* Assets.xcassets */,
+				B79975F32A2E86F2007D70DE /* Tada.mp3 */,
+				B799AA342A2EA0820071A969 /* AS.mp3 */,
+				B79975EB2A2E8086007D70DE /* GoogleService-Info.plist */,
 				B7C37C5A2A20F571001FF51D /* Component */,
 				B7D52B8F2A209F7500F2F7F5 /* Preview Content */,
 			);
@@ -205,6 +219,9 @@
 			dependencies = (
 			);
 			name = "Taste Haven";
+			packageProductDependencies = (
+				B79975EE2A2E80ED007D70DE /* FirebaseAuth */,
+			);
 			productName = "Taste Haven";
 			productReference = B7D52B862A209F7300F2F7F5 /* Taste Haven.app */;
 			productType = "com.apple.product-type.application";
@@ -230,9 +247,11 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = B7D52B7D2A209F7300F2F7F5;
+			packageReferences = (
+				B79975ED2A2E80ED007D70DE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = B7D52B872A209F7300F2F7F5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -248,7 +267,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7D52B912A209F7500F2F7F5 /* Preview Assets.xcassets in Resources */,
+				B799AA352A2EA0820071A969 /* AS.mp3 in Resources */,
 				B7D52B8E2A209F7500F2F7F5 /* Assets.xcassets in Resources */,
+				B79975F52A2E86F2007D70DE /* Tada.mp3 in Resources */,
+				B79975EC2A2E8086007D70DE /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +296,7 @@
 				B7C37C622A210287001FF51D /* Coustom Categories.swift in Sources */,
 				B7C37C5E2A20F74C001FF51D /* HomeView.swift in Sources */,
 				B7C37C602A20F7AE001FF51D /* CoustomSearch.swift in Sources */,
+				B79975F12A2E81E6007D70DE /* Haptic.swift in Sources */,
 				B73CBE862A21F5F2000A19CC /* Register.swift in Sources */,
 				B7C37C682A211105001FF51D /* CostomFeatured.swift in Sources */,
 				B7C37C722A214348001FF51D /* CoustomsFavourits.swift in Sources */,
@@ -493,6 +516,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B79975ED2A2E80ED007D70DE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B79975EE2A2E80ED007D70DE /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B79975ED2A2E80ED007D70DE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B7D52B7E2A209F7300F2F7F5 /* Project object */;
 }
